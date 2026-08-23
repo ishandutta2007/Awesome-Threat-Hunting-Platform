@@ -1,41 +1,48 @@
-# Awesome-Threat-Hunting-Platform
+# 🛡️ Awesome Threat Hunting Platform
 
-## Top Threat Hunting Platforms Ecosystem
+<!-- SEO Meta: threat hunting, SIEM, XDR, MDR, detection engineering, open-source security, cybersecurity tools, managed detection and response, endpoint detection, threat intelligence -->
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=github&label=Stars)![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=github&label=Forks)![GitHub last commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=git&label=Updated)![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&color=blue&label=License)
 
-*Focused on Proactive Threat Hunting, Detection Engineering, Managed Hunting Services, XDR/SIEM Analytics & Adversary Tracking*
+![Awesome Threat Hunting Platform Banner](assets/banner.svg)
 
-**Last updated: August 2026**
+---
 
+## 📋 Top Threat Hunting Platforms Ecosystem
 
+### 🎯 Curated List of SaaS Products & Open-Source GitHub Projects
+
+*Focused on Proactive Threat Hunting 🔍, Detection Engineering 🛠️, Managed Hunting Services 🏢, XDR/SIEM Analytics 📊 & Adversary Tracking 🕵️*
+
+📅 **Last updated: August 2026**
+
+---
+
+## 📖 About This Repository
 
 This repository tracks notable **SaaS platforms** and **open-source projects** for **Threat Hunting**. These tools and services enable security teams (or managed providers) to proactively search for stealthy adversaries, develop detection content, investigate high-fidelity leads, and reduce dwell time beyond traditional alert-driven SOC operations.
 
+### 🔥 What You'll Find Here
 
+- **16 SaaS Products** — CrowdStrike, Microsoft, Google, Elastic, SentinelOne, and more
+- **17+ Open-Source Projects** — Wazuh, CyberChef, osquery, Sigma, MISP, and more
+- **Specific Pricing** — Exact starting tier prices, not vague "contact sales"
+- **Free Tier Details** — Trial durations, limits, and forever-free plan specifics
+- **Company Size Data** — Market cap, valuation, and revenue for every SaaS vendor
 
-**Examples** include Hunters, CrowdStrike Falcon OverWatch, Microsoft Defender Experts, SentinelOne Deep Visibility / Vigilance, Elastic Security, LogRhythm, Exabeam, Google SecOps, Devo Security, Uptycs, Huntress, Red Canary, Intezer, Cybereason, Arctic Wolf, and Mandiant Managed Defense (the category leaders and major managed offerings).
+---
 
+## 🗂️ Table of Contents
 
+- [🛡️ SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [➕ Additional Strong Open-Source Options](#-additional-strong-open-source-options)
+- [🔧 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Open-source emphasis**: The open-source ecosystem for threat hunting is robust. **Wazuh**, **Elastic Security**, **Security Onion**, **Sigma**, and related projects form the foundation of many self-hosted hunting stacks. This section is heavily expanded with practical open alternatives and supporting tools.
+---
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+## 🛡️ SaaS/Hosted Platforms
 
 | Product | Company Size | Starting Price | Free Tier | Description |
 |---------|-------------|----------------|-----------|-------------|
@@ -56,14 +63,14 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | [**Intezer**](https://www.intezer.com/) | **Intezer** — $83M valuation (~$5.3M revenue, 54.9% YoY growth) | **$2,400/year** (Malware Analysis, 100 scans/month); AI SOC: custom endpoint-based pricing | **Free community tier** — 10 file scans/month with restricted access to advanced features | Genetic malware analysis and threat detection platform that aids hunting and investigation of code reuse and advanced threats. |
 | [**Mandiant Managed Defense**](https://www.mandiant.com/) | **Google Cloud / Mandiant** — $5.4B acquisition (Google Cloud $58.7B revenue) | **~$83K/year** average (range $80K–$200K/year depending on scope and modules) | **$300 GCP free trial** credits (90 days) applicable to Google SecOps; Mandiant Advantage Threat Intelligence starts at ~$40K/year with no free tier | Elite managed threat hunting and detection service from Mandiant (Google Cloud), leveraging frontline intelligence and expertise. |
 
-> **Notes on company size**: Public companies show market cap; private companies show last known valuation. Revenue figures are annual estimates from public filings, press releases, or third-party estimates (Growjo, Tracxn, PitchBook). Pricing reflects published list rates as of mid-2026; enterprise customers may negotiate lower rates.
+> 📝 **Notes on company size**: Public companies show market cap; private companies show last known valuation. Revenue figures are annual estimates from public filings, press releases, or third-party estimates (Growjo, Tracxn, PitchBook). Pricing reflects published list rates as of mid-2026; enterprise customers may negotiate lower rates.
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
-
-| Repository | Stars | Description |
-|------------|-------|-------------|
+| Repository | ⭐ Stars | Description |
+|------------|---------|-------------|
 | [**CyberChef**](https://github.com/gchq/CyberChef) | [![Stars](https://img.shields.io/github/stars/gchq/CyberChef?style=social&label=)](https://github.com/gchq/CyberChef/stargazers) | The Cyber Swiss Army Knife — a web app for encryption, encoding, compression, and data analysis. Widely used in threat hunting for decoding payloads, analyzing malware artifacts, and transforming threat intelligence data. |
 | [**osquery**](https://github.com/osquery/osquery) | [![Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&label=)](https://github.com/osquery/osquery/stargazers) | SQL-powered operating system instrumentation and analytics framework. Enables threat hunters to query endpoint state across Windows, macOS, and Linux using familiar SQL syntax. |
 | [**Wazuh**](https://github.com/wazuh/wazuh) | [![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&label=)](https://github.com/wazuh/wazuh/stargazers) | Leading open-source XDR/SIEM platform with log analysis, file integrity monitoring, vulnerability detection, and extensible rules — widely used as a foundation for threat hunting. |
@@ -82,44 +89,46 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | [**HEARTH (THOR Collective)**](https://github.com/THORCollective/HEARTH) | [![Stars](https://img.shields.io/github/stars/THORCollective/HEARTH?style=social&label=)](https://github.com/THORCollective/HEARTH/stargazers) | Community-driven library of threat hunting hypotheses and methodologies organized around structured frameworks. Provides actionable hunting playbooks for SOC teams. |
 | [**Senrigan**](https://github.com/Yamato-Security/senrigan) | [![Stars](https://img.shields.io/github/stars/Yamato-Security/senrigan?style=social&label=)](https://github.com/Yamato-Security/senrigan/stargazers) | Offline open-source platform focused on AWS CloudTrail DFIR and threat hunting with built-in hunts and dashboards for cloud environment investigation. |
 
+---
 
+### ➕ Additional Strong Open-Source Options
 
-### Additional Strong Open-Source Options
-
-- **Elastic Security (ELK Stack)** — Open-source search and analytics stack that powers many hunting environments; supports powerful queries, detection rules, timelines, and machine-learning jobs.
-- **Zeek / Suricata + Arkime (formerly Moloch)** for deep network hunting and full-packet capture analysis.
-- **MISP Warning Lists & Galaxy** for enriching threat intelligence during hunts.
-- Custom **Jupyter / notebook-based** hunting environments on top of data lakes.
-- Detection-as-code repositories and CI pipelines for testing hunting content.
-- **Sigma CLI** and **Uncoder.IO** for converting Sigma rules to platform-specific queries.
-
-
-
-**Frameworks for building custom systems**: Combine **Wazuh** or **Elastic Security** (or **Security Onion**) as the core data and detection platform, ingest endpoint/network/cloud telemetry, apply **Sigma** rules and custom hunting queries, enrich with **OpenCTI**/**MISP** intelligence, and manage investigations in **TheHive** or a similar open case system. Add hypothesis libraries from **HEARTH** and schedule recurring hunts. This stack provides a complete, self-hosted threat hunting capability with full data ownership and no per-endpoint hunting license fees, though it requires skilled analysts and ongoing detection engineering effort.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Threat hunting involves sensitive security data and high-stakes decisions. Open-source platforms offer excellent transparency and cost control but still require proper architecture, tuning, threat intelligence, and skilled operators to be effective. Managed hunting services add human expertise that pure tooling cannot fully replace.
-- Always validate detections and hunting results in context before taking response actions.
-
-
+- 🔍 **Elastic Security (ELK Stack)** — Open-source search and analytics stack that powers many hunting environments; supports powerful queries, detection rules, timelines, and machine-learning jobs.
+- 🌐 **Zeek / Suricata + Arkime (formerly Moloch)** for deep network hunting and full-packet capture analysis.
+- 🧠 **MISP Warning Lists & Galaxy** for enriching threat intelligence during hunts.
+- 📓 Custom **Jupyter / notebook-based** hunting environments on top of data lakes.
+- ⚙️ Detection-as-code repositories and CI pipelines for testing hunting content.
+- 🔄 **Sigma CLI** and **Uncoder.IO** for converting Sigma rules to platform-specific queries.
 
 ---
 
-**Made for threat hunters, detection engineers, and SOC teams building proactive defense capabilities.**
+## 🏗️ Frameworks for Building Custom Systems
 
-Let's make threat hunting more accessible, collaborative, and grounded in open tools and shared knowledge.
+> 💡 Combine **Wazuh** or **Elastic Security** (or **Security Onion**) as the core data and detection platform, ingest endpoint/network/cloud telemetry, apply **Sigma** rules and custom hunting queries, enrich with **OpenCTI**/**MISP** intelligence, and manage investigations in **TheHive** or a similar open case system. Add hypothesis libraries from **HEARTH** and schedule recurring hunts. This stack provides a complete, self-hosted threat hunting capability with full data ownership and no per-endpoint hunting license fees, though it requires skilled analysts and ongoing detection engineering effort.
+
+---
+
+## 🔧 How to Contribute
+
+1. 🍴 Fork the repo.
+2. ✏️ Add/edit entries in `README.md` (follow existing format).
+3. 📋 Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. 📨 Submit PR with a short explanation.
+
+⭐ Star the repo if you find it useful!
+
+---
+
+## ⚠️ Disclaimer
+
+- 📌 This is a **community-curated** list — not exhaustive and not an endorsement.
+- 🔐 Threat hunting involves sensitive security data and high-stakes decisions. Open-source platforms offer excellent transparency and cost control but still require proper architecture, tuning, threat intelligence, and skilled operators to be effective. Managed hunting services add human expertise that pure tooling cannot fully replace.
+- ✅ Always validate detections and hunting results in context before taking response actions.
+
+---
+
+**🛡️ Made for threat hunters, detection engineers, and SOC teams building proactive defense capabilities.**
+
+Let's make threat hunting more accessible, collaborative, and grounded in open tools and shared knowledge. 🚀
+
+<!-- SEO Keywords: threat hunting platform, SIEM tools, XDR solution, MDR provider, detection engineering, open-source security, cybersecurity tools, endpoint detection and response, network security monitoring, threat intelligence platform, MITRE ATT&CK, Sigma rules, Wazuh, Elastic Security, CrowdStrike, Microsoft Defender, Google SecOps -->

@@ -2,7 +2,7 @@
 
 <!-- SEO Meta: threat hunting, SIEM, XDR, MDR, detection engineering, open-source security, cybersecurity tools, managed detection and response, endpoint detection, threat intelligence -->
 
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=github&label=Stars)![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=github&label=Forks)![GitHub last commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=git&label=Updated)![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&color=blue&label=License)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=github&label=Stars)![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=github&label=Forks)![GitHub last commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&logo=git&label=Updated)![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Threat-Hunting-Platform?style=flat-square&color=blue&label=License)<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 ![Awesome Threat Hunting Platform Banner](assets/banner.svg)
 
@@ -124,6 +124,12 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - 📌 This is a **community-curated** list — not exhaustive and not an endorsement.
 - 🔐 Threat hunting involves sensitive security data and high-stakes decisions. Open-source platforms offer excellent transparency and cost control but still require proper architecture, tuning, threat intelligence, and skilled operators to be effective. Managed hunting services add human expertise that pure tooling cannot fully replace.
 - ✅ Always validate detections and hunting results in context before taking response actions.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Threat-Hunting-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Threat-Hunting-Platform&type=date&legend=top-left)
 
 ---
 

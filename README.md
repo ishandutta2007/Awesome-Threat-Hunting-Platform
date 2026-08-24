@@ -69,7 +69,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 ## 💻 Open-Source GitHub Projects
 
-| Repository | ⭐ Stars | Description |
+| Repository | ⭐ Github_Stars | Description |
 |------------|---------|-------------|
 | [**CyberChef**](https://github.com/gchq/CyberChef) | [![Stars](https://img.shields.io/github/stars/gchq/CyberChef?style=social&label=)](https://github.com/gchq/CyberChef/stargazers) | The Cyber Swiss Army Knife — a web app for encryption, encoding, compression, and data analysis. Widely used in threat hunting for decoding payloads, analyzing malware artifacts, and transforming threat intelligence data. |
 | [**osquery**](https://github.com/osquery/osquery) | [![Stars](https://img.shields.io/github/stars/osquery/osquery?style=social&label=)](https://github.com/osquery/osquery/stargazers) | SQL-powered operating system instrumentation and analytics framework. Enables threat hunters to query endpoint state across Windows, macOS, and Linux using familiar SQL syntax. |
